@@ -7,9 +7,9 @@
 include $(TOPDIR)/rules.mk
 
 LUCI_TITLE:=Edge Theme
-LUCI_DEPENDS:=
-PKG_VERSION:=2.0
-PKG_RELEASE:=20200908
+LUCI_DEPENDS:=+curl
+
+PKG_LICENSE:=Apache-2.0
 
 include $(TOPDIR)/feeds/luci/luci.mk
 
